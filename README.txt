@@ -1,1 +1,1 @@
-This is a simple Snake game that is ready to be hosted on a website. An HTML canvas is manipulated using Javascript. A simple text file scoreboard, controlled using a PHP script, is also included.
+This is a simple Snake game that is ready to be hosted on a website. Gameplay is facilitated through an HTML canvas that is manipulated using Javascript. A simple text file scoreboard, controlled using a PHP script, is also included.
