@@ -154,7 +154,7 @@ var init = function() {
 // Check for key presses
 document.onkeydown = function(event) {
 	keyCode = window.event.keyCode; 
-    keyCode = event.keyCode;
+	keyCode = event.keyCode;
 	
 	// Begin the game when an arrow key is pressed
 	if (direction === "none") {
@@ -169,19 +169,19 @@ document.onkeydown = function(event) {
 			}
 			break;
 
-        case 39:
+        	case 39:
 			if (lastDirection != 'left') {
 				direction = 'right';
 			}
 			break;
 
-        case 38:
+        	case 38:
 			if (lastDirection != 'down') {
 				direction = 'up';
 			}
 			break;
 
-        case 40:
+        	case 40:
 			if (lastDirection != 'up') {
 				direction = 'down';
 			}
