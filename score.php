@@ -11,7 +11,7 @@ if (isset($_GET['name'])) {
 	// Load scoreboard file
 	$file = 'score.txt';
 	$current = file_get_contents($file);
-	// Append name and score to scoreboard. Create equal spacing for all scores
+	// Append name and score to scoreboard. Create equal spacing for all possible scores
 	if ($score > 999) {
 		$current .= '       ' . $score . '              ' . $name . "\n";
 	} else if ($score > 99) {
